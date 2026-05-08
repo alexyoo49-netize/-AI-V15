@@ -1,0 +1,551 @@
+{
+  "generatedAt": "2026-05-08T16:28:46",
+  "method": "20개 고용노동부 원자료를 내려받아 CSV, XLSX, HTML형 원문을 적재하고 MVP 계산용 변수로 요약",
+  "rawManifest": "public/data/raw/manifest.json",
+  "minimumWage": {
+    "year": 2026,
+    "hourlyWage": 10320,
+    "rowCount": 13
+  },
+  "subsidyPerformance": {
+    "latest": {
+      "year": 2024,
+      "companies": 39472,
+      "youth": 101519
+    },
+    "history": [
+      {
+        "year": 2022,
+        "companies": 47634,
+        "youth": 113700
+      },
+      {
+        "year": 2023,
+        "companies": 38735,
+        "youth": 88649
+      },
+      {
+        "year": 2024,
+        "companies": 39472,
+        "youth": 101519
+      }
+    ],
+    "subsidyEffect": 0.076
+  },
+  "trainingItStatus": {
+    "latest": {
+      "year": 2024,
+      "participants": 109728
+    },
+    "history": [
+      {
+        "year": 2019,
+        "participants": 33900
+      },
+      {
+        "year": 2020,
+        "participants": 40647
+      },
+      {
+        "year": 2021,
+        "participants": 99001
+      },
+      {
+        "year": 2022,
+        "participants": 131782
+      },
+      {
+        "year": 2023,
+        "participants": 214899
+      },
+      {
+        "year": 2024,
+        "participants": 109728
+      }
+    ],
+    "trainingBaseEffect": 0.078
+  },
+  "unemploymentPressure": {
+    "latest": {
+      "year": 2024,
+      "recipients": 1697096,
+      "amountMillionWon": 11739388
+    },
+    "history": [
+      {
+        "year": 2015,
+        "recipients": 1207835,
+        "amountMillionWon": 4380270
+      },
+      {
+        "year": 2016,
+        "recipients": 1200914,
+        "amountMillionWon": 4683980
+      },
+      {
+        "year": 2017,
+        "recipients": 1196397,
+        "amountMillionWon": 5022576
+      },
+      {
+        "year": 2018,
+        "recipients": 1315030,
+        "amountMillionWon": 6452217
+      },
+      {
+        "year": 2019,
+        "recipients": 1443434,
+        "amountMillionWon": 8087095
+      },
+      {
+        "year": 2020,
+        "recipients": 1702513,
+        "amountMillionWon": 11850492
+      },
+      {
+        "year": 2021,
+        "recipients": 1774364,
+        "amountMillionWon": 12057883
+      },
+      {
+        "year": 2022,
+        "recipients": 1631110,
+        "amountMillionWon": 10908385
+      },
+      {
+        "year": 2023,
+        "recipients": 1671549,
+        "amountMillionWon": 11305871
+      },
+      {
+        "year": 2024,
+        "recipients": 1697096,
+        "amountMillionWon": 11739388
+      }
+    ],
+    "jobSearchPressure": 0.088
+  },
+  "benefitDays": {
+    "minDays": 90,
+    "maxDays": 270,
+    "averageDays": 180.5,
+    "rowCount": 11
+  },
+  "ncs": {
+    "format": "hwp_zip",
+    "fileCount": 11,
+    "textFileCount": 7,
+    "sampleFiles": [
+      "version.xml",
+      "Contents/header.xml",
+      "Contents/section0.xml",
+      "Preview/PrvText.txt",
+      "settings.xml",
+      "META-INF/container.xml",
+      "META-INF/manifest.xml"
+    ]
+  },
+  "wageByIndustryMedian": {
+    "광업": 67148.0,
+    "제조업": 89493.0,
+    "전기·가스·수도사업": 68630.0,
+    "건설업": 76886.0,
+    "도매·소매업": 60421.0,
+    "숙박·음식점업": 43958.0,
+    "운수업": 40906.0,
+    "통신업": 68723.0,
+    "금융·보험업": 81101.0,
+    "부동산·임대업": 65879.0,
+    "사업서비스업": 77091.0,
+    "공공행정·국방·사회보장행정": 34653.0,
+    "보건·사회복지사업": 56008.0,
+    "오락·문화·운동관련 서비스업": 47427.0,
+    "기타 공공·수리·개인 서비스업": 53072.0,
+    "가사 서비스업": 52169.0
+  },
+  "regionCounts": {
+    "centers": {
+      "서울": 11,
+      "인천": 4,
+      "경기": 30,
+      "강원": 8,
+      "부산": 4,
+      "경남": 14,
+      "울산": 1,
+      "대구": 8,
+      "경북": 10,
+      "광주": 5,
+      "전북": 8,
+      "전남": 7,
+      "대전": 5,
+      "충북": 6,
+      "충남": 10,
+      "제주": 1
+    },
+    "apprenticeshipCompanies": {
+      "서울": 3711,
+      "경기": 3764,
+      "인천": 872,
+      "경북": 911,
+      "충남": 779,
+      "광주": 1031,
+      "대구": 1435,
+      "대전": 805,
+      "울산": 566,
+      "강원": 522,
+      "전남": 437,
+      "전북": 589,
+      "충북": 783,
+      "부산": 1401,
+      "경남": 975,
+      "세종": 66,
+      "제주": 1
+    },
+    "subsidyOperators": {
+      "서울": 37,
+      "인천": 10,
+      "경기": 37,
+      "강원": 7,
+      "부산": 11,
+      "경남": 11,
+      "울산": 3,
+      "대구": 10,
+      "경북": 7,
+      "광주": 7,
+      "전북": 6,
+      "전남": 5,
+      "대전": 6,
+      "세종": 2,
+      "충북": 7,
+      "충남": 7
+    },
+    "localProjects": {
+      "경기": 6,
+      "대구": 8,
+      "충북": 6,
+      "경남": 1,
+      "강원": 4,
+      "전남": 1,
+      "울산": 2,
+      "광주": 8,
+      "전북": 1,
+      "대전": 9,
+      "부산": 6,
+      "서울": 8,
+      "인천": 3
+    }
+  },
+  "market": {
+    "서울": {
+      "demand": 0.736,
+      "competition": 0.65,
+      "wage": 1.12,
+      "supportAccess": 0.52,
+      "rawCounts": {
+        "centers": 11,
+        "apprenticeshipCompanies": 3711,
+        "subsidyOperators": 37,
+        "localProjects": 8
+      }
+    },
+    "경기": {
+      "demand": 0.743,
+      "competition": 0.622,
+      "wage": 1.05,
+      "supportAccess": 0.9,
+      "rawCounts": {
+        "centers": 30,
+        "apprenticeshipCompanies": 3764,
+        "subsidyOperators": 37,
+        "localProjects": 6
+      }
+    },
+    "부산": {
+      "demand": 0.515,
+      "competition": 0.523,
+      "wage": 0.94,
+      "supportAccess": 0.38,
+      "rawCounts": {
+        "centers": 4,
+        "apprenticeshipCompanies": 1401,
+        "subsidyOperators": 11,
+        "localProjects": 6
+      }
+    },
+    "대구": {
+      "demand": 0.499,
+      "competition": 0.492,
+      "wage": 0.91,
+      "supportAccess": 0.46,
+      "rawCounts": {
+        "centers": 8,
+        "apprenticeshipCompanies": 1435,
+        "subsidyOperators": 10,
+        "localProjects": 8
+      }
+    },
+    "광주": {
+      "demand": 0.461,
+      "competition": 0.469,
+      "wage": 0.9,
+      "supportAccess": 0.4,
+      "rawCounts": {
+        "centers": 5,
+        "apprenticeshipCompanies": 1031,
+        "subsidyOperators": 7,
+        "localProjects": 8
+      }
+    },
+    "대전": {
+      "demand": 0.508,
+      "competition": 0.473,
+      "wage": 0.97,
+      "supportAccess": 0.4,
+      "rawCounts": {
+        "centers": 5,
+        "apprenticeshipCompanies": 805,
+        "subsidyOperators": 6,
+        "localProjects": 9
+      }
+    },
+    "인천": {
+      "demand": 0.517,
+      "competition": 0.506,
+      "wage": 0.98,
+      "supportAccess": 0.38,
+      "rawCounts": {
+        "centers": 4,
+        "apprenticeshipCompanies": 872,
+        "subsidyOperators": 10,
+        "localProjects": 3
+      }
+    },
+    "울산": {
+      "demand": 0.455,
+      "competition": 0.422,
+      "wage": 1.02,
+      "supportAccess": 0.32,
+      "rawCounts": {
+        "centers": 1,
+        "apprenticeshipCompanies": 566,
+        "subsidyOperators": 3,
+        "localProjects": 2
+      }
+    },
+    "세종": {
+      "demand": 0.447,
+      "competition": 0.44,
+      "wage": 1.0,
+      "supportAccess": 0.3,
+      "rawCounts": {
+        "centers": 0,
+        "apprenticeshipCompanies": 66,
+        "subsidyOperators": 2,
+        "localProjects": 0
+      }
+    },
+    "강원": {
+      "demand": 0.409,
+      "competition": 0.392,
+      "wage": 0.86,
+      "supportAccess": 0.46,
+      "rawCounts": {
+        "centers": 8,
+        "apprenticeshipCompanies": 522,
+        "subsidyOperators": 7,
+        "localProjects": 4
+      }
+    },
+    "충북": {
+      "demand": 0.465,
+      "competition": 0.42,
+      "wage": 0.91,
+      "supportAccess": 0.42,
+      "rawCounts": {
+        "centers": 6,
+        "apprenticeshipCompanies": 783,
+        "subsidyOperators": 7,
+        "localProjects": 6
+      }
+    },
+    "충남": {
+      "demand": 0.485,
+      "competition": 0.427,
+      "wage": 0.95,
+      "supportAccess": 0.5,
+      "rawCounts": {
+        "centers": 10,
+        "apprenticeshipCompanies": 779,
+        "subsidyOperators": 7,
+        "localProjects": 0
+      }
+    },
+    "전북": {
+      "demand": 0.425,
+      "competition": 0.396,
+      "wage": 0.86,
+      "supportAccess": 0.46,
+      "rawCounts": {
+        "centers": 8,
+        "apprenticeshipCompanies": 589,
+        "subsidyOperators": 6,
+        "localProjects": 1
+      }
+    },
+    "전남": {
+      "demand": 0.407,
+      "competition": 0.379,
+      "wage": 0.85,
+      "supportAccess": 0.44,
+      "rawCounts": {
+        "centers": 7,
+        "apprenticeshipCompanies": 437,
+        "subsidyOperators": 5,
+        "localProjects": 1
+      }
+    },
+    "경북": {
+      "demand": 0.456,
+      "competition": 0.399,
+      "wage": 0.88,
+      "supportAccess": 0.5,
+      "rawCounts": {
+        "centers": 10,
+        "apprenticeshipCompanies": 911,
+        "subsidyOperators": 7,
+        "localProjects": 0
+      }
+    },
+    "경남": {
+      "demand": 0.48,
+      "competition": 0.425,
+      "wage": 0.9,
+      "supportAccess": 0.58,
+      "rawCounts": {
+        "centers": 14,
+        "apprenticeshipCompanies": 975,
+        "subsidyOperators": 11,
+        "localProjects": 1
+      }
+    },
+    "제주": {
+      "demand": 0.383,
+      "competition": 0.413,
+      "wage": 0.87,
+      "supportAccess": 0.32,
+      "rawCounts": {
+        "centers": 1,
+        "apprenticeshipCompanies": 1,
+        "subsidyOperators": 0,
+        "localProjects": 0
+      }
+    }
+  },
+  "jobProfiles": {
+    "데이터 분석": {
+      "ncs": "정보기술 > 빅데이터분석",
+      "required": [
+        "Excel",
+        "SQL",
+        "Python",
+        "데이터 시각화",
+        "기초 통계",
+        "문제정의"
+      ],
+      "adjacent": [
+        "데이터 운영",
+        "BI 리포팅",
+        "사무자동화",
+        "마케팅 데이터 보조"
+      ],
+      "baseWage": 266,
+      "trainingBoost": 0.13,
+      "sourceIndustry": "통신업"
+    },
+    "사무": {
+      "ncs": "경영·회계·사무 > 총무·인사",
+      "required": [
+        "Excel",
+        "문서작성",
+        "커뮤니케이션",
+        "일정관리",
+        "자료정리"
+      ],
+      "adjacent": [
+        "영업지원",
+        "HR 운영",
+        "총무",
+        "고객운영"
+      ],
+      "baseWage": 298,
+      "trainingBoost": 0.07,
+      "sourceIndustry": "사업서비스업"
+    },
+    "마케팅": {
+      "ncs": "영업판매 > 마케팅",
+      "required": [
+        "콘텐츠 기획",
+        "Excel",
+        "데이터 리터러시",
+        "SNS 운영",
+        "문서작성"
+      ],
+      "adjacent": [
+        "콘텐츠 운영",
+        "CRM 보조",
+        "광고 운영",
+        "영업지원"
+      ],
+      "baseWage": 234,
+      "trainingBoost": 0.09,
+      "sourceIndustry": "도매·소매업"
+    },
+    "개발": {
+      "ncs": "정보기술 > 응용SW엔지니어링",
+      "required": [
+        "JavaScript",
+        "Python",
+        "Git",
+        "SQL",
+        "API 이해",
+        "문제해결"
+      ],
+      "adjacent": [
+        "QA",
+        "웹 퍼블리싱",
+        "데이터 엔지니어링 보조",
+        "IT 운영"
+      ],
+      "baseWage": 266,
+      "trainingBoost": 0.15,
+      "sourceIndustry": "통신업"
+    },
+    "디자인": {
+      "ncs": "문화·예술·디자인 > 디자인",
+      "required": [
+        "Figma",
+        "포트폴리오",
+        "사용자 이해",
+        "시각디자인",
+        "커뮤니케이션"
+      ],
+      "adjacent": [
+        "콘텐츠 디자인",
+        "서비스 운영",
+        "UX 리서치 보조",
+        "마케팅 디자인"
+      ],
+      "baseWage": 210,
+      "trainingBoost": 0.08,
+      "sourceIndustry": "오락·문화·운동관련 서비스업"
+    }
+  },
+  "policyEffects": {
+    "counseling": 0.068,
+    "trainingBase": 0.078,
+    "subsidy": 0.076,
+    "integratedSynergy": 0.05,
+    "distancePenalty": 0.034,
+    "jobSearchPressure": 0.088
+  }
+}
